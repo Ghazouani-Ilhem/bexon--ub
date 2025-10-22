@@ -18,7 +18,7 @@ A modern, high-performance Next.js application converted from HTML templates wit
 
 ## 📁 Project Structure
 
-```
+\`\`\`
 ├── components/
 │   ├── Layout.tsx              # Main layout wrapper
 │   ├── Header.tsx              # Navigation header
@@ -101,29 +101,29 @@ A modern, high-performance Next.js application converted from HTML templates wit
 ├── tailwind.config.js         # Tailwind CSS configuration
 ├── postcss.config.js          # PostCSS configuration
 └── package.json               # Dependencies and scripts
-```
+\`\`\`
 
 ## 🛠️ Installation
 
 1. **Clone the repository**
-   ```bash
+   \`\`\`bash
    git clone <repository-url>
    cd bexon-nextjs
-   ```
+   \`\`\`
 
 2. **Install dependencies**
-   ```bash
+   \`\`\`bash
    npm install
    # or
    yarn install
-   ```
+   \`\`\`
 
 3. **Run the development server**
-   ```bash
+   \`\`\`bash
    npm run dev
    # or
    yarn dev
-   ```
+   \`\`\`
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
