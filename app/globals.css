@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    /* Updated color scheme to match IntegrationObjects - dark blue/slate with orange accents */
+    --background: 15 23% 42%;
+    --foreground: 0 0% 98%;
+    --card: 15 23% 35%;
+    --card-foreground: 0 0% 98%;
+    --popover: 15 23% 35%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 25 90% 50%;
+    --primary-foreground: 0 0% 8%;
+    --secondary: 15 23% 50%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 15 23% 60%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 25 90% 50%;
+    --accent-foreground: 0 0% 8%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 15 23% 50%;
+    --input: 15 23% 50%;
+    --ring: 25 90% 50%;
+    --chart-1: 25 90% 50%;
+    --chart-2: 200 100% 50%;
+    --chart-3: 15 23% 60%;
+    --chart-4: 25 90% 60%;
+    --chart-5: 15 23% 70%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 15 23% 20%;
+    --foreground: 0 0% 98%;
+    --card: 15 23% 25%;
+    --card-foreground: 0 0% 98%;
+    --popover: 15 23% 25%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 25 90% 50%;
+    --primary-foreground: 0 0% 8%;
+    --secondary: 15 23% 35%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 15 23% 45%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 25 90% 50%;
+    --accent-foreground: 0 0% 8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 15 23% 35%;
+    --input: 15 23% 35%;
+    --ring: 25 90% 50%;
+    --chart-1: 25 90% 50%;
+    --chart-2: 200 100% 50%;
+    --chart-3: 15 23% 45%;
+    --chart-4: 25 90% 60%;
+    --chart-5: 15 23% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
