@@ -16,21 +16,21 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-1">
                 <div className="w-6 h-6 bg-orange-500 rounded-sm"></div>
-                <span className="text-sm font-bold text-slate-300">integration</span>
+                <span className="text-sm font-bold text-slate-300">bexon</span>
               </div>
-              <span className="text-sm font-bold text-slate-400">objects</span>
+              <span className="text-sm font-bold text-slate-400">theme</span>
             </div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center gap-8">
               <a href="#" className="text-sm text-slate-300 hover:text-white transition">
-                IT-OT Integration
+                Features
               </a>
               <a href="#" className="text-sm text-slate-300 hover:text-white transition">
-                AI
+                Solutions
               </a>
               <a href="#" className="text-sm text-slate-300 hover:text-white transition">
-                OPC Products
+                Products
               </a>
               <a href="#" className="text-sm text-slate-300 hover:text-white transition">
                 Resources
@@ -39,17 +39,14 @@ export default function Home() {
                 Contact
               </a>
               <a href="#" className="text-sm text-slate-300 hover:text-white transition">
-                About Us
-              </a>
-              <a href="#" className="text-sm text-slate-300 hover:text-white transition">
-                Ask Us a Question
+                About
               </a>
             </div>
 
             {/* CTA Button */}
             <div className="flex items-center gap-4">
               <button className="hidden md:block rounded-lg bg-orange-500 text-white px-6 py-2 text-sm font-medium hover:bg-orange-600 transition">
-                Download SIOTH
+                Get Started
               </button>
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -64,13 +61,13 @@ export default function Home() {
           {mobileMenuOpen && (
             <div className="md:hidden pb-4 space-y-2">
               <a href="#" className="block text-sm text-slate-300 hover:text-white transition py-2">
-                IT-OT Integration
+                Features
               </a>
               <a href="#" className="block text-sm text-slate-300 hover:text-white transition py-2">
-                AI
+                Solutions
               </a>
               <a href="#" className="block text-sm text-slate-300 hover:text-white transition py-2">
-                OPC Products
+                Products
               </a>
               <a href="#" className="block text-sm text-slate-300 hover:text-white transition py-2">
                 Resources
@@ -78,11 +75,8 @@ export default function Home() {
               <a href="#" className="block text-sm text-slate-300 hover:text-white transition py-2">
                 Contact
               </a>
-              <a href="#" className="block text-sm text-slate-300 hover:text-white transition py-2">
-                About Us
-              </a>
               <button className="w-full rounded-lg bg-orange-500 text-white px-6 py-2 text-sm font-medium hover:bg-orange-600 transition mt-4">
-                Download SIOTH
+                Get Started
               </button>
             </div>
           )}
@@ -101,12 +95,12 @@ export default function Home() {
             {/* Left Content */}
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-balance">
-                OPC UA Universal Server built in minutes using SIOTH®
+                Modern Design System for Enterprise Applications
               </h1>
               <div className="flex items-center gap-3 mb-8">
                 <div className="w-1 h-8 bg-orange-500"></div>
                 <a href="#" className="text-slate-300 hover:text-white transition font-medium">
-                  Read More
+                  Explore More
                 </a>
               </div>
             </div>
