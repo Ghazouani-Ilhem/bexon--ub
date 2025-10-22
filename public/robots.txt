@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bexon.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /service
+Allow: /portfolio
+Allow: /blog
+Allow: /contact
+Allow: /team
+Allow: /careers
+Allow: /pricing
+Allow: /faq
+Allow: /shop
