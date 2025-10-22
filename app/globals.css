@@ -12,58 +12,58 @@
   :root {
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
-    /* Updated color scheme to match IntegrationObjects - dark blue/slate with orange accents */
-    --background: 15 23% 42%;
-    --foreground: 0 0% 98%;
-    --card: 15 23% 35%;
-    --card-foreground: 0 0% 98%;
-    --popover: 15 23% 35%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 25 90% 50%;
-    --primary-foreground: 0 0% 8%;
-    --secondary: 15 23% 50%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 15 23% 60%;
-    --muted-foreground: 0 0% 70%;
-    --accent: 25 90% 50%;
-    --accent-foreground: 0 0% 8%;
+    /* Updated to modern light theme with blue and teal accents */
+    --background: 0 0% 98%;
+    --foreground: 220 13% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 20%;
+    --primary: 200 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 180 60% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 13% 70%;
+    --muted-foreground: 220 13% 40%;
+    --accent: 200 100% 50%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 15 23% 50%;
-    --input: 15 23% 50%;
-    --ring: 25 90% 50%;
-    --chart-1: 25 90% 50%;
-    --chart-2: 200 100% 50%;
-    --chart-3: 15 23% 60%;
-    --chart-4: 25 90% 60%;
-    --chart-5: 15 23% 70%;
+    --border: 220 13% 90%;
+    --input: 220 13% 95%;
+    --ring: 200 100% 50%;
+    --chart-1: 200 100% 50%;
+    --chart-2: 180 60% 50%;
+    --chart-3: 220 13% 70%;
+    --chart-4: 200 100% 60%;
+    --chart-5: 180 60% 60%;
     --radius: 0.5rem;
   }
   .dark {
-    --background: 15 23% 20%;
+    --background: 220 13% 15%;
     --foreground: 0 0% 98%;
-    --card: 15 23% 25%;
+    --card: 220 13% 20%;
     --card-foreground: 0 0% 98%;
-    --popover: 15 23% 25%;
+    --popover: 220 13% 20%;
     --popover-foreground: 0 0% 98%;
-    --primary: 25 90% 50%;
+    --primary: 200 100% 50%;
     --primary-foreground: 0 0% 8%;
-    --secondary: 15 23% 35%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 15 23% 45%;
+    --secondary: 180 60% 50%;
+    --secondary-foreground: 0 0% 8%;
+    --muted: 220 13% 45%;
     --muted-foreground: 0 0% 70%;
-    --accent: 25 90% 50%;
+    --accent: 200 100% 50%;
     --accent-foreground: 0 0% 8%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 15 23% 35%;
-    --input: 15 23% 35%;
-    --ring: 25 90% 50%;
-    --chart-1: 25 90% 50%;
-    --chart-2: 200 100% 50%;
-    --chart-3: 15 23% 45%;
-    --chart-4: 25 90% 60%;
-    --chart-5: 15 23% 55%;
+    --border: 220 13% 35%;
+    --input: 220 13% 35%;
+    --ring: 200 100% 50%;
+    --chart-1: 200 100% 50%;
+    --chart-2: 180 60% 50%;
+    --chart-3: 220 13% 45%;
+    --chart-4: 200 100% 60%;
+    --chart-5: 180 60% 55%;
   }
 }
 
