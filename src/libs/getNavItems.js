@@ -1,4 +1,3 @@
-
 import navItems from "../../public/fakedata/nav-items"
 
 const getNavItems = () => {
